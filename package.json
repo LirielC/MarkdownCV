@@ -1,0 +1,53 @@
+{
+  "name": "markdowncv",
+  "displayName": "MarkdownCV",
+  "description": "Converte currículos em Markdown para PDF profissional e otimizado para ATS",
+  "version": "1.0.0",
+  "publisher": "ArchCastro",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LirielC/MarkdownCV"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "markdowncv.generatePDF",
+        "title": "MarkdownCV: Generate PDF"
+      },
+      {
+        "command": "markdowncv.atsScore",
+        "title": "MarkdownCV: ATS Score (Keyword Analysis)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "pretest": "npm run compile",
+    "test": "mocha out/test/**/*.test.js"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "mocha": "^11.7.5",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.1",
+    "puppeteer-core": "^24.37.3"
+  }
+}

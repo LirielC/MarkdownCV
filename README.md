@@ -9,8 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=ArchCastro.markdowncv">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/ArchCastro.markdowncv?label=VS%20Code%20Marketplace&color=blue" alt="Marketplace">
+  <a href="https://marketplace.visualstudio.com/items?itemName=archcastro.markdowncv">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/archcastro.markdowncv?label=VS%20Code%20Marketplace&color=blue" alt="Marketplace">
+  </a>
+  <a href="https://github.com/LirielC/MarkdownCV">
+    <img src="https://img.shields.io/badge/GitHub-LirielC%2FMarkdownCV-181717?logo=github" alt="GitHub">
   </a>
   <a href="https://github.com/LirielC/MarkdownCV/actions/workflows/ci.yml">
     <img src="https://github.com/LirielC/MarkdownCV/actions/workflows/ci.yml/badge.svg" alt="CI">
